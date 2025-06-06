@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">BRAND</span>
+        </div>
+        
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">
+              <i class="icon-home">🏠</i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">
+              <i class="icon-about">ℹ️</i>
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">
+              <i class="icon-services">💼</i>
+              Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">
+              <i class="icon-portfolio">👤</i>
+              Portfolio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <i class="icon-contact">📧</i>
+              Contact
+            </a>
+          </li>
+        </ul>
+        
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main>
+      <section id="home" class="section">
+        <div class="content">
+          <h1>Welcome to Our Website</h1>
+          <p>Scroll down to see the navigation effects in action!</p>
+        </div>
+      </section>
+      
+      <section id="about" class="section">
+        <div class="content">
+          <h2>About Us</h2>
+          <p>This is the about section. Notice how the navigation changes as you scroll.</p>
+        </div>
+      </section>
+      
+      <section id="services" class="section">
+        <div class="content">
+          <h2>Our Services</h2>
+          <p>We provide excellent services with attention to detail.</p>
+        </div>
+      </section>
+      
+      <section id="portfolio" class="section">
+        <div class="content">
+          <h2>Portfolio</h2>
+          <p>Check out our amazing work and projects.</p>
+        </div>
+      </section>
+      
+      <section id="contact" class="section">
+        <div class="content">
+          <h2>Contact Us</h2>
+          <p>Get in touch with us for any inquiries.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
